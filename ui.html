@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample UI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .main-container {
+            display: flex;
+            margin: 20px;
+        }
+
+        .sidebar {
+            width: 20%;
+            background: #f4f4f4;
+            padding: 15px;
+            margin-right: 20px;
+        }
+
+        .content {
+            flex-grow: 1;
+            background: white;
+            padding: 15px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Sample UI</h1>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <h2>Main Content</h2>
+            <p>This is a sample content fetched via a GET request. You can replace this with your actual dynamic content.</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sample UI. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
